@@ -1,0 +1,241 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+header {
+    background: #f7f5f2;
+}
+
+
+/* Navbar start */
+#navbar {
+    background-color: #b2744c;
+}
+
+#logo img {
+    border-radius: 10px;
+    width: 160px;
+    margin-left: 40px;
+}
+
+.Navbar-nav {
+    margin-left: 50px;
+}
+
+.navbar-item .nav-link {
+    color: black;
+    margin-left: 10px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.nav-item .nav-link:hover {
+    background: #f7f5f2;
+    border-radius: 5px;
+    color: black;
+}
+
+/* Navbar End */
+
+
+/* Home section Start */
+#home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+#home .content {
+    padding-top: 210px;
+    margin-left: 56px;
+}
+
+#home .content h1 {
+    font-size: 80px;
+    color: white;
+}
+
+#home .content p {
+    margin-top: 10px;
+    color: white;
+}
+
+#btn {
+    width: 150px;
+    height: 36px;
+    margin-top: 20px;
+    background: white;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background: #b2744c;
+    color: white;
+}
+
+/* Home section End */
+
+
+/* About us Secton Start */
+
+/* About Us Section End */
+
+/* Top categories Start */
+#top-card {
+    width: 100%;
+    height: 60vh;
+    background: #f7f5f2;
+
+
+}
+
+.heading {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.heading span {
+    color: #b2744c;
+}
+
+#top-card .cotainer {
+    margin-top: 30px;
+}
+
+#top-cards .card {
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#top-cards .card img {
+    border-radius: 10px;
+}
+
+#top-cards .card:hover {
+    transform: translateY(-100px);
+
+}
+
+/* Top categories End */
+
+
+ /* Menu Card Start  */
+ #menu{
+    width: 100%;
+    margin-top: 60px;
+ }
+ .heading2{
+    text-align: center;
+    color: #b2744c;
+    font-weight: bold;
+    border-bottom: 2px solid #b2744c;
+ }
+#container2{
+    margin-top: 50px;
+}
+#menu .card{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.star i{
+    color: #b2744c;
+}
+menu h2{
+    text-align: center;
+    color: #b2744c;
+    margin-top: 10px;
+    font-size: 25px;
+}
+#men p{
+     font-size: 16px;
+     color: #b2744c;
+     padding-top: 10px;
+}
+#menu p span{
+    float: right;
+    cursor: pointer;    
+ }
+ /* Menu Card End  *
+
+ /* Gallary section Start */
+#gallary{
+    width: 100%;
+ }
+ .heading3{
+    text-align: center;
+    color: black;
+    margin-top: 60px;
+    font-weight: bold;
+ }
+ #gallary .heading3 span{
+    color: #b2744c;
+ }
+ #gallary .card{
+    border-radius: 10px;
+    cursor: pointer;
+ }
+ gallary .card img{
+    border-radius: 10px;
+ }
+ /* Gallary section End */
+
+/* footer start */
+#footer{
+    width:100%;
+    background: #b2744c;
+    margin-top: 50px;
+     font-size: 25px;
+}
+.footer-logo img{
+    width: 180px;
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+#footer .social-links i{
+    font-size: 17px;
+    margin-left: 10px;
+    margin-top: 30px;
+    padding: 10px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.credits{
+    color: white;
+    margin-top: 20px;
+    text-shadow: 0px 0px 1px black;
+}
+.credits a{
+    color: black;
+    font-weight: bold;
+}
+#credits a span{
+    color: black;
+}
+.copyright span{
+    color: black;
+}
+
+/* Animation Start */
+
+
